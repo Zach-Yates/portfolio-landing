@@ -28,7 +28,6 @@ const Hero = () => {
           </Router>
         </div>
 
-
       </div>
 
 

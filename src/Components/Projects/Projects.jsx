@@ -1,12 +1,13 @@
 import React from 'react'
 import './Projects.css'
-import {Link} from 'react-scroll'
-import {Link as RLink} from 'react-router-dom'
-import park_image from '../../../../assets/park-ph.jpg'
-import smoothie_image from '../../../../assets/smoothie-ph.jpg'
-import game_image from '../../../../assets/gameco-ss.png'
+import{BrowserRouter as Router,Routes,Route} from 'react-router-dom'
+
+import {Link} from 'react-router-dom'
+import park_image from '../../assets/park-ph.jpg'
+import smoothie_image from '../../assets/smoothie-ph.jpg'
+import game_image from '../../assets/gameco-ss.png'
 import { FaExternalLinkAlt } from "react-icons/fa";
-import github_icon from '../../../../assets/github-mark.png'
+import github_icon from '../../assets/github-mark.png'
 
 const Projects = () => {
 
@@ -44,21 +45,24 @@ const Projects = () => {
           
           <div className='project__links'>
 
+            <Router>
             <div className='github_link'>
-              <RLink to='https://github.com/Zach-Yates' className='code_text'>Code</RLink>
+              <Link to='https://github.com/Zach-Yates' className='code_text'>Code</Link>
 
-              <RLink to='https://github.com/Zach-Yates'>
+              <Link to='https://github.com/Zach-Yates'>
                 <img className='icon' src={github_icon} />
-              </RLink>
+              </Link>
+
             </div>
 
             <div className='demo_link'>
-              <RLink to='/comp_home' className='demo_text'>Live Demo</RLink>
+              <Link to='/comp_home' className='demo_text'>Live Demo</Link>
 
-              <RLink to='/comp_home'>
+              <Link to='/comp_home'>
                 <FaExternalLinkAlt size="20px" color="black"/>
-              </RLink>
+              </Link>
             </div>
+            </Router>
 
           </div>
         </div>
@@ -80,23 +84,24 @@ const Projects = () => {
         </div>
         
         <div className='project__links'>
+        <Router>
 
           <div className='github_link'>
-            <RLink to='https://github.com/Zach-Yates' className='code_text'>Code</RLink>
+            <Link to='https://github.com/Zach-Yates' className='code_text'>Code</Link>
 
-            <RLink to='https://github.com/Zach-Yates'>
+            <Link to='https://github.com/Zach-Yates'>
               <img className='icon' src={github_icon} />
-            </RLink>
+            </Link>
           </div>
 
           <div className='demo_link'>
-            <RLink to='/gameHome' className='demo_text'>Live Demo</RLink>
+            <Link to='/gameHome' className='demo_text'>Live Demo</Link>
 
-            <RLink to='/gameHome'>
+            <Link to='/gameHome'>
               <FaExternalLinkAlt size="20px" color="black"/>
-            </RLink>
+            </Link>
           </div>
-
+          </Router>
         </div>
       </div>
 
@@ -123,23 +128,24 @@ const Projects = () => {
         </div>
         
         <div className='project__links'>
+        <Router>
 
           <div className='github_link'>
-            <RLink to='https://github.com/Zach-Yates' className='code_text'>Code</RLink>
+            <Link to='https://github.com/Zach-Yates' className='code_text'>Code</Link>
 
-            <RLink to='https://github.com/Zach-Yates'>
+            <Link to='https://github.com/Zach-Yates'>
               <img className='icon' src={github_icon} />
-            </RLink>
+            </Link>
           </div>
 
           <div className='demo_link'>
-            <RLink to='/gameHome' className='demo_text'>Live Demo</RLink>
+            <Link to='/gameHome' className='demo_text'>Live Demo</Link>
 
-            <RLink to='/gameHome'>
+            <Link to='/gameHome'>
               <FaExternalLinkAlt size="20px" color="black"/>
-            </RLink>
+            </Link>
           </div>
-
+          </Router>
         </div>
       </div>
 

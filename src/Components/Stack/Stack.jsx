@@ -1,10 +1,10 @@
 import React from 'react'
 import './Stack.css'
-import html5_icon from '../../../../assets/html-5.svg'
-import css_icon from '../../../../assets/css-3.svg'
-import js_icon from '../../../../assets/js.svg'
-import react_icon from '../../../../assets/react.svg'
-import vite_icon from '../../../../assets/vite.svg'
+import html5_icon from '../../assets/html-5.svg'
+import css_icon from '../../assets/css-3.svg'
+import js_icon from '../../assets/js.svg'
+import react_icon from '../../assets/react.svg'
+import vite_icon from '../../assets/vite.svg'
 
 const Stack = () => {
   return (
