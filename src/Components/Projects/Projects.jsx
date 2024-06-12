@@ -131,17 +131,17 @@ const Projects = () => {
         <Router>
 
           <div className='github_link'>
-            <Link to='https://github.com/Zach-Yates' className='code_text'>Code</Link>
+            <Link to='https://github.com/Zach-Yates/portfolio-game-company' className='code_text'>Code</Link>
 
-            <Link to='https://github.com/Zach-Yates'>
+            <Link to='https://github.com/Zach-Yates/portfolio-game-company'>
               <img className='icon' src={github_icon} />
             </Link>
           </div>
 
           <div className='demo_link'>
-            <Link to='/gameHome' className='demo_text'>Live Demo</Link>
+            <Link to='https://zach-yates.github.io/portfolio-game-company/' className='demo_text'>Live Demo</Link>
 
-            <Link to='/gameHome'>
+            <Link to='https://zach-yates.github.io/portfolio-game-company/'>
               <FaExternalLinkAlt size="20px" color="black"/>
             </Link>
           </div>
