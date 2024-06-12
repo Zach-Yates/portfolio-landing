@@ -47,18 +47,18 @@ const Projects = () => {
 
             <Router>
             <div className='github_link'>
-              <Link to='https://github.com/Zach-Yates' className='code_text'>Code</Link>
+              <Link to='https://github.com/Zach-Yates/portfolio-computer-company' className='code_text'>Code</Link>
 
-              <Link to='https://github.com/Zach-Yates'>
+              <Link to='https://github.com/Zach-Yates/portfolio-computer-company'>
                 <img className='icon' src={github_icon} />
               </Link>
 
             </div>
 
             <div className='demo_link'>
-              <Link to='/comp_home' className='demo_text'>Live Demo</Link>
+              <Link to='https://zach-yates.github.io/portfolio-computer-company/' className='demo_text'>Live Demo</Link>
 
-              <Link to='/comp_home'>
+              <Link to='https://zach-yates.github.io/portfolio-computer-company/'>
                 <FaExternalLinkAlt size="20px" color="black"/>
               </Link>
             </div>
