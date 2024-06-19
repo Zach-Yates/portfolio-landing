@@ -3,7 +3,7 @@ import './Projects.css'
 import{BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 
 import {Link} from 'react-router-dom'
-import park_image from '../../assets/park-ph.jpg'
+import iphones_image from '../../assets/iPhones4Less-home-ss.png'
 import smoothie_image from '../../assets/smoothie-ph.jpg'
 import game_image from '../../assets/gameco-ss.png'
 import { FaExternalLinkAlt } from "react-icons/fa";
@@ -26,16 +26,14 @@ const Projects = () => {
       <div className='project'>
 
         <div className='project__img'>
-          <img src={park_image}/>
+          <img src={iphones_image}/>
         </div>
 
         <div className='project__info'>
-          <h3>CompCo</h3>
+          <h3>iPhones 4 Less</h3>
 
-          <p>CompCo is a third party apple certified Premier Partner. 
-          CompCo's website allows customers to browse their fine selection of refurbished Apple products.
-          Compare prices with Apple to see how much you can save when shopping with CompCo. Setup servicing for
-          a device experiencing a range of issues.
+          <p>iPhones 4 Less is dedicated to bringing the world's most sought after product to the consumer at more appealing price point.
+          Choose your model, find your finish, and set the storage on your new favorite device!
           </p>
 
           <div className='project__tech'>
