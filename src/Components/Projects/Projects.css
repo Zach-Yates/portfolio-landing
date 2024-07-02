@@ -30,6 +30,7 @@
     height: 250px;
     width: 400px;
     margin-left: 100px;
+    border-radius: 10px;
 }
 
 .project__img__mid img{

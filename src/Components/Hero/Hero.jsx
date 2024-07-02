@@ -23,7 +23,7 @@ const Hero = () => {
                 <img src={github_icon} />
             </Link>
             <Link to='https://www.linkedin.com/in/zach-johnson-427b58b6'>
-                <img src={linkdin_icon} />
+                <img  src={linkdin_icon} />
             </Link>
           </Router>
         </div>
@@ -32,7 +32,7 @@ const Hero = () => {
 
 
       <div className='right'>
-        <img src={pic_of_me} alt="Person" />
+        <img className='profile-img' src={pic_of_me} alt="Person" />
       </div>
 
     </div>

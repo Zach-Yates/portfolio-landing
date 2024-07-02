@@ -3,7 +3,7 @@ import './Projects.css'
 import{BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 
 import {Link} from 'react-router-dom'
-import iphones_image from '../../assets/iPhones4Less-home-ss.png'
+import iphones_image from '../../assets/iphones4less-home-ss.png'
 import smoothie_image from '../../assets/smoothie-ph.jpg'
 import game_image from '../../assets/gameco-ss.png'
 import { FaExternalLinkAlt } from "react-icons/fa";
@@ -36,10 +36,10 @@ const Projects = () => {
           Choose your model, find your finish, and set the storage on your new favorite device!
           </p>
 
-          <div className='project__tech'>
+          {/* <div className='project__tech'>
             <h2 className='tech__left'>React</h2>
             <h2 className='tech__right'>Vanilla Css</h2>
-          </div>
+          </div> */}
           
           <div className='project__links'>
 
@@ -67,7 +67,7 @@ const Projects = () => {
 
       </div>
 
-      <div className='project'>
+      {/* <div className='project'>
 
 
 
@@ -107,7 +107,7 @@ const Projects = () => {
         <img src={smoothie_image}/>
       </div>
 
-      </div>
+      </div> */}
 
       <div className='project'>
 
@@ -118,12 +118,12 @@ const Projects = () => {
       <div className='project__info'>
         <h3>game company</h3>
 
-        <p>A website for a game company. Browse their library and download their games.</p>
+        <p>A website for a video game company. Browse and enjoy a showcase of 93 Game Studio's mobile offerings. The site is playful and colorful to express the fun found in the gameplay of each experience.</p>
 
-        <div className='project__tech'>
+        {/* <div className='project__tech'>
           <h2 className='tech__left'>React</h2>
           <h2 className='tech__right'>Vanilla Css</h2>
-        </div>
+        </div> */}
         
         <div className='project__links'>
         <Router>
