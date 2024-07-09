@@ -36,8 +36,8 @@
 }
 
 .profile-img{
-    border-radius: 100px;
-    border: solid 10px rgb(0, 81, 255);
+    border-radius: 100%;
+    border: solid 3px rgb(255, 255, 255);
 }
 
 @media(max-width: 600px){

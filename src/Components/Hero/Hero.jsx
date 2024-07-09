@@ -3,9 +3,9 @@ import './Hero.css'
 import{BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 
 import { Link } from 'react-router-dom'
-import github_icon from '../../assets/github-mark.png'
+import github_icon from '../../assets/github-mark-white.png'
 import linkdin_icon from '../../assets/In-Blue-128.png'
-import pic_of_me from '../../assets/PH-ME.png'
+import pic_of_me from '../../assets/ME-1.png'
 
 
 const Hero = () => {
