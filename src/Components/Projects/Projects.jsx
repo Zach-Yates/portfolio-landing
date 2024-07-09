@@ -3,7 +3,7 @@ import './Projects.css'
 import{BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 
 import {Link} from 'react-router-dom'
-import iphones_image from '../../assets/iphones4less-home-ss.png'
+import iphones_image from '../../assets/phones.png'
 import smoothie_image from '../../assets/smoothie-ph.jpg'
 import game_image from '../../assets/gameco-ss.png'
 import { FaExternalLinkAlt } from "react-icons/fa";
