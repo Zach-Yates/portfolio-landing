@@ -140,9 +140,9 @@ const Projects = () => {
           </div>
 
           <div className='demo_link'>
-            <Link to='https://zach-yates.github.io/portfolio-game-company/' className='demo_text'>Live Demo</Link>
+            <Link to='https://zach-yates.github.io/portfolio-game-company/' className='demo_text' onClick={() => window.open('https://zach-yates.github.io/portfolio-game-company/','_self')}>Live Demo</Link>
 
-            <Link to='https://zach-yates.github.io/portfolio-game-company/'>
+            <Link to='https://zach-yates.github.io/portfolio-game-company/' onClick={() => window.open('https://zach-yates.github.io/portfolio-game-company/','_self')}>
               <FaExternalLinkAlt size="20px" color="black"/>
             </Link>
           </div>
