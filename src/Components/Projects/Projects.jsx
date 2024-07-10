@@ -45,7 +45,7 @@ const Projects = () => {
 
             <Router>
             <div className='github_link'>
-            <Link to='https://zach-yates.github.io/portfolio-computer-company/' className='demo_text'>Live Demo</Link>
+            <Link to='https://zach-yates.github.io/portfolio-computer-company/' className='demo_text' onClick={window.open('https://zach-yates.github.io/portfolio-computer-company/','_self')} >Live Demo</Link>
 
 <Link to='https://zach-yates.github.io/portfolio-computer-company/'>
   <FaExternalLinkAlt size="20px" color="black"/>
