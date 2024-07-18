@@ -16,11 +16,11 @@ const Projects = () => {
     <div className='projects'>
 
       <div className='projects__title'>
-        <h2>PROJECTS</h2>
+        <h2>DEMOS</h2>
       </div>
 
       <div className='projects__subtitle'>
-        <h2>Each project is a unique piece of development</h2>
+        <h2>Dynamic design meets seamless functionality.</h2>
       </div>
 
       <div className='project'>

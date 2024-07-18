@@ -121,6 +121,13 @@
 }
 
 
+@media (max-width: 1000px){
+    .showcase .heading{
+        margin-bottom: 30px;
+        margin-left: 130px;
+    }
+}
+
 @media (max-width: 600px){
     .showcase .heading{
         margin-bottom: 30px;
