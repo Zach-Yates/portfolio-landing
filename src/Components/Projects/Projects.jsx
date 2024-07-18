@@ -16,7 +16,7 @@ const Projects = () => {
     <div className='projects'>
 
       <div className='projects__title'>
-        <h2>PORTFOLIO</h2>
+        <h2>PROJECTS</h2>
       </div>
 
       <div className='projects__subtitle'>

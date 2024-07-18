@@ -1,0 +1,129 @@
+.showcase{
+    margin-bottom: 300px;
+}
+
+.showcase .heading{
+    margin-bottom: 30px;
+    margin-left: 300px;
+}
+
+.showcase .title{
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(7, 160, 255);
+}
+
+.showcase .subtitle{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #285185;
+    display: block;
+}
+
+.showcase .elements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+
+.showcase .element{
+    width: 350px;
+    height: 350px;
+
+    border: 1px solid #285185;
+    border-radius: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.15);
+    flex-shrink: 0;
+}
+
+
+.showcase .top{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    /* background-color: green; */
+}
+
+.showcase .bottom{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #D67940;
+}
+
+.quote-text{
+    height: 60%;
+    margin: 0px 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.quote-button{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;   
+}
+
+.new-button{
+    height: 35px;
+    width: 100px;
+    background-color: rgb(7, 160, 255);
+    border:none;
+    border-radius: 10px;
+    color: white;
+}
+
+.new-button:hover{
+    scale: 1.1;
+    background-color: rgb(57, 179, 255);
+}
+
+.element-title{
+    font-size: 2rem;
+    color: #285185;
+}
+
+
+
+.price{
+    font-size: 2.25rem;
+    margin-top: 50px;
+}
+
+.quote{
+    font-size: 1rem;
+}
+
+
+
+.temp{
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.condition{
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 600px){
+    .showcase .heading{
+        margin-bottom: 30px;
+        margin-left: 75px;
+    }
+}
