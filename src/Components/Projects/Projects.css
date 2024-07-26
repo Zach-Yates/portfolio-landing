@@ -37,9 +37,11 @@
     height: 250px;
     width: 400px;
     margin-right: 100px;
+    border-radius: 10px;
 }
 
 .project__info{
+    margin-top: 75px;
     margin-right: 100px;
     height: 300px;
     width: 300px;
@@ -60,6 +62,7 @@
 }
 
 .project__info__mid{
+    margin-top: 75px;
     margin-left: 100px;
     height: 300px;
     width: 300px;
