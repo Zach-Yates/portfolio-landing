@@ -27,9 +27,11 @@ const Projects = () => {
       {/* PROJECT */}
       <div className='project'>
 
+        <Router>
         <div className='project__img'>
-          <img src={iphones_image}/>
+          <Link to='https://zach-yates.github.io/portfolio-computer-company/' className='demo_text' onClick={() => window.open('https://zach-yates.github.io/portfolio-computer-company/','_self')}><img src={iphones_image}/> </Link>
         </div>
+        </Router>
 
         <div className='project__info'>
           <h3>iPhones 4 Less</h3>
@@ -73,50 +75,53 @@ const Projects = () => {
       {/* PROJECT */}
       <div className='project'>
 
-<div className='project__info__mid'>
+        <div className='project__info__mid'>
 
-  <h3>More Lore!</h3>
+          <h3>More Lore!</h3>
 
-  <p>A web app that makes it easy for users learn about their favorite game world.
-  Each game has a collection of videos including a story recap, speedrun, full playthrough, and retrospective.
-  Users can even create an account to track their progress!
-  </p>
+          <p>A web app that makes it easy for users learn about their favorite game world.
+          Each game has a collection of videos including a story recap, speedrun, full playthrough, and retrospective.
+          Users can even create an account to track their progress!
+          </p>
 
-  
-  <div className='project__links'>
-  <Router>
+          
+          <div className='project__links'>
+          <Router>
 
-    {/* <div className='github_link'>
-      <Link to='https://github.com/Zach-Yates/portfolio-nft-wallet-viewer' className='code_text'>Code</Link>
+            {/* <div className='github_link'>
+              <Link to='https://github.com/Zach-Yates/portfolio-nft-wallet-viewer' className='code_text'>Code</Link>
 
-      <Link to='https://github.com/Zach-Yates/portfolio-nft-wallet-viewer'>
-        <img className='icon' src={github_icon} />
-      </Link>
-    </div> */}
+              <Link to='https://github.com/Zach-Yates/portfolio-nft-wallet-viewer'>
+                <img className='icon' src={github_icon} />
+              </Link>
+            </div> */}
 
-    <div className='demo_link'>
-      <Link to='https://lore-199e6.web.app/' className='demo_text' onClick={() => window.open('https://lore-199e6.web.app/','_self')}>Live Demo</Link>
+            <div className='demo_link'>
+              <Link to='https://lore-199e6.web.app/' className='demo_text' onClick={() => window.open('https://lore-199e6.web.app/','_self')}>Live Demo</Link>
 
-      <Link to='https://lore-199e6.web.app/' onClick={() => window.open('https://lore-199e6.web.app/','_self')}>
-        <FaExternalLinkAlt size="20px" color="black"/>
-      </Link>
-    </div>
-    </Router>
-  </div>
-</div>
+              <Link to='https://lore-199e6.web.app/' onClick={() => window.open('https://lore-199e6.web.app/','_self')}>
+                <FaExternalLinkAlt size="20px" color="black"/>
+              </Link>
+            </div>
+            </Router>
+          </div>
+        </div>
 
-<div className='project__img__mid'>
-  <img src={lore_image}/>
-</div>
-
+        <Router>
+          <div className='project__img__mid'>
+          <Link to='https://lore-199e6.web.app/' className='demo_text' onClick={() => window.open('https://lore-199e6.web.app/','_self')}><img src={lore_image}/> </Link>
+          </div>
+        </Router>
       </div>
       
       {/* PROJECT */}
       <div className='project'>
-
+      <Router>
       <div className='project__img'>
-        <img src={game_image}/>
+        <Link to='https://zach-yates.github.io/portfolio-game-company/' className='demo_text' onClick={() => window.open('https://zach-yates.github.io/portfolio-game-company/','_self')}><img src={game_image}/> </Link>
       </div>
+      </Router>
+
 
       <div className='project__info'>
         <h3>game company</h3>
@@ -155,8 +160,6 @@ const Projects = () => {
      {/* PROJECT */}
      <div className='project'>
 
-
-
       <div className='project__info__mid'>
 
         <h3>Nft Wallet Viewer</h3>
@@ -189,10 +192,13 @@ const Projects = () => {
         </div>
       </div>
 
+      <Router>
       <div className='project__img__mid'>
-        <img src={nft_image}/>
+        <Link to='https://zach-yates.github.io/portfolio-nft-wallet-viewer/' className='demo_text' onClick={() => window.open('https://zach-yates.github.io/portfolio-nft-wallet-viewer/','_self')}><img src={nft_image}/> </Link>
       </div>
+      </Router>
 
+      
       </div>
 
     </div>

@@ -33,11 +33,21 @@
     border-radius: 10px;
 }
 
+.project__img img:hover{
+    scale:1.05;
+    border: 3px solid rgb(7, 160, 255);
+}
+
 .project__img__mid img{
     height: 250px;
     width: 400px;
     margin-right: 100px;
     border-radius: 10px;
+}
+
+.project__img__mid img:hover{
+    scale:1.05;
+    border: 3px solid rgb(7, 160, 255);
 }
 
 .project__info{
